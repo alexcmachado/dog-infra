@@ -3,7 +3,7 @@ resource "aws_sagemaker_endpoint_configuration" "main" {
 
   production_variants {
     variant_name           = "main"
-    model_name             = "pytorch-training-2021-12-15-00-43-56-977"
+    model_name             = "pytorch-transfer-2021-12-23-20-48-07-581"
     initial_instance_count = 1
     instance_type          = "ml.t2.medium"
   }
