@@ -1,7 +1,3 @@
-variable "region" {
-  default = "us-east-1"
-}
-
 data "aws_iam_policy_document" "apigw_sm_invoke_assume_role" {
   statement {
     actions = ["sts:AssumeRole"]
